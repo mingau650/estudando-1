@@ -9,11 +9,11 @@
     <p id = "mensagem"></p>
     <script>
 
-        document.addEventListener('a', function(event)) {
+        document.addEventListener('keydown', function(event) {
             if(event.key === 'a') {
                 document.getElementById("mensagem").textContent = "voce apertou a tecla a"
             }
-        }
+        });
     </script>
 </body>
 </html>
